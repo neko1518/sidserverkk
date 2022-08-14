@@ -23,7 +23,7 @@ async def ress():
 
 
 @app.post("/{comId}/send-active-obj/{sid}")
-async def submit_reportrequest: Request,comId:int,sid:):
+async def submit_report(request: Request,comId:int,sid:str):
     body = await request.json()
     client.login_sid(sid)
     server=client.sendActive(comId)
