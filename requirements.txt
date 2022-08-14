@@ -7,3 +7,4 @@ fastapi==0.65.2
 uvicorn
 heroku3
 pymongo
+sidserver
