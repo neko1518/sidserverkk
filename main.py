@@ -6,8 +6,8 @@ from fastapi.responses import JSONResponse
 import uvicorn
 import sidserver
 
-app=""
-key=""
+app="hdhdh66"
+key="a5451957-d9ee-4114-92e1-66cf55ee9957"
 
 client=sidserver.Client(app_name=app,key=key)        
 app = FastAPI()
